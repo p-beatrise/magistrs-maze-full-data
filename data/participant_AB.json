@@ -1,0 +1,192 @@
+{
+	"demographic_survey": {
+		"atcereties_celu": "Daļēji piekrītu",
+		"cik_stundas": "1000+",
+		"dzimums": "Vīrietis",
+		"norades": "Daļēji piekrītu",
+		"supes_kaite": "Jā",
+		"vai_esat_izmantojis": "Jā",
+		"virziena_sajuta": "Daļēji piekrītu"
+	},
+	"layout_order": [
+		"layout_2",
+		"layout_3",
+		"layout_1"
+	],
+	"maze_order": [
+		"blue",
+		"neutral",
+		"red"
+	],
+	"mazes": [
+		{
+			"exploration_duration_seconds": 226.349,
+			"layout_id": "layout_2",
+			"maze_id": "blue",
+			"object_room_assignment": {
+				"room_0": "Krēsls",
+				"room_1": "Dīvāns",
+				"room_2": "Virtulis",
+				"room_3": "Māja",
+				"room_4": "Pica",
+				"room_5": "Burgeris",
+				"room_6": "Kumode",
+				"room_7": "Kāpnes",
+				"room_8": "Vista"
+			},
+			"post_maze_survey": {
+				"aktivs": "Mēreni",
+				"apnemigs": "Diezgan daudz",
+				"bedigs": "Ļoti nedaudz vai nemaz",
+				"dusmigs": "Ļoti nedaudz vai nemaz",
+				"iedvesmots": "Mēreni",
+				"modrs": "Mēreni",
+				"nervozs": "Nedaudz",
+				"nobijies": "Ļoti nedaudz vai nemaz",
+				"nokaunejies": "Ļoti nedaudz vai nemaz",
+				"verigs": "Diezgan daudz"
+			},
+			"target_sequence": [
+				"Pica",
+				"Krēsls",
+				"Virtulis"
+			],
+			"targets": [
+				{
+					"distance_walked_to_here": 47.649,
+					"object_name": "Pica",
+					"room_index": 4,
+					"time_seconds": 20.33
+				},
+				{
+					"distance_walked_to_here": 33.818,
+					"object_name": "Krēsls",
+					"room_index": 0,
+					"time_seconds": 37.545
+				},
+				{
+					"distance_walked_to_here": 34.13,
+					"object_name": "Virtulis",
+					"room_index": 2,
+					"time_seconds": 50.31
+				}
+			],
+			"wrong_room_visits": [
+				{
+					"object_name": "Burgeris",
+					"room_index": 5,
+					"target_object_name": "Pica",
+					"time_seconds": 12.394
+				}
+			]
+		},
+		{
+			"exploration_duration_seconds": 291.477,
+			"layout_id": "layout_3",
+			"maze_id": "neutral",
+			"object_room_assignment": {
+				"room_0": "Kaste",
+				"room_1": "Kaķis",
+				"room_2": "Lapsa",
+				"room_3": "Papagailis",
+				"room_4": "Laiva",
+				"room_5": "Kauls",
+				"room_6": "Pīle",
+				"room_7": "Lampa",
+				"room_8": "Soliņš"
+			},
+			"post_maze_survey": {
+				"aktivs": "Mēreni",
+				"apnemigs": "Nedaudz",
+				"bedigs": "Ļoti nedaudz vai nemaz",
+				"dusmigs": "Ļoti nedaudz vai nemaz",
+				"iedvesmots": "Nedaudz",
+				"modrs": "Mēreni",
+				"nervozs": "Mēreni",
+				"nobijies": "Ļoti nedaudz vai nemaz",
+				"nokaunejies": "Ļoti nedaudz vai nemaz",
+				"verigs": "Mēreni"
+			},
+			"target_sequence": [
+				"Lampa",
+				"Laiva",
+				"Kaste"
+			],
+			"targets": [
+				{
+					"distance_walked_to_here": 35.982,
+					"object_name": "Lampa",
+					"room_index": 7,
+					"time_seconds": 14.809
+				},
+				{
+					"distance_walked_to_here": 26.406,
+					"object_name": "Laiva",
+					"room_index": 4,
+					"time_seconds": 24.482
+				},
+				{
+					"distance_walked_to_here": 33.546,
+					"object_name": "Kaste",
+					"room_index": 0,
+					"time_seconds": 37.08
+				}
+			],
+			"wrong_room_visits": []
+		},
+		{
+			"exploration_duration_seconds": 309.432,
+			"layout_id": "layout_1",
+			"maze_id": "red",
+			"object_room_assignment": {
+				"room_0": "Puķes",
+				"room_1": "Pingvīns",
+				"room_2": "Dinozaurs",
+				"room_3": "Saldējums",
+				"room_4": "Vāvere",
+				"room_5": "Miskastes maiss",
+				"room_6": "Ugunsdzēsēju mašīna",
+				"room_7": "Karogs",
+				"room_8": "Vāzes"
+			},
+			"post_maze_survey": {
+				"aktivs": "Nedaudz",
+				"apnemigs": "Ļoti nedaudz vai nemaz",
+				"bedigs": "Mēreni",
+				"dusmigs": "Nedaudz",
+				"iedvesmots": "Nedaudz",
+				"modrs": "Nedaudz",
+				"nervozs": "Nedaudz",
+				"nobijies": "Ļoti nedaudz vai nemaz",
+				"nokaunejies": "Ļoti nedaudz vai nemaz",
+				"verigs": "Diezgan daudz"
+			},
+			"target_sequence": [
+				"Saldējums",
+				"Pingvīns",
+				"Vāzes"
+			],
+			"targets": [
+				{
+					"distance_walked_to_here": 27.458,
+					"object_name": "Saldējums",
+					"room_index": 3,
+					"time_seconds": 11.845
+				},
+				{
+					"distance_walked_to_here": 74.77,
+					"object_name": "Pingvīns",
+					"room_index": 1,
+					"time_seconds": 40.771
+				},
+				{
+					"distance_walked_to_here": 39.45,
+					"object_name": "Vāzes",
+					"room_index": 8,
+					"time_seconds": 62.297
+				}
+			],
+			"wrong_room_visits": []
+		}
+	]
+}

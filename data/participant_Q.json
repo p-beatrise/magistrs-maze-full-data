@@ -1,0 +1,185 @@
+{
+	"demographic_survey": {
+		"atcereties_celu": "Pilnībā piekrītu",
+		"cik_stundas": "1000+",
+		"dzimums": "Vīrietis",
+		"norades": "Neitrāli",
+		"supes_kaite": "Jā",
+		"vai_esat_izmantojis": "Nē",
+		"virziena_sajuta": "Pilnībā piekrītu"
+	},
+	"layout_order": [
+		"layout_1",
+		"layout_2",
+		"layout_3"
+	],
+	"maze_order": [
+		"red",
+		"blue",
+		"neutral"
+	],
+	"mazes": [
+		{
+			"exploration_duration_seconds": 147.236,
+			"layout_id": "layout_1",
+			"maze_id": "red",
+			"object_room_assignment": {
+				"room_0": "Puķes",
+				"room_1": "Pingvīns",
+				"room_2": "Dinozaurs",
+				"room_3": "Saldējums",
+				"room_4": "Vāvere",
+				"room_5": "Miskastes maiss",
+				"room_6": "Ugunsdzēsēju mašīna",
+				"room_7": "Karogs",
+				"room_8": "Vāzes"
+			},
+			"post_maze_survey": {
+				"aktivs": "Mēreni",
+				"apnemigs": "Diezgan daudz",
+				"bedigs": "Diezgan daudz",
+				"dusmigs": "Ļoti nedaudz vai nemaz",
+				"iedvesmots": "Ļoti nedaudz vai nemaz",
+				"modrs": "Diezgan daudz",
+				"nervozs": "Ļoti nedaudz vai nemaz",
+				"nobijies": "Ļoti nedaudz vai nemaz",
+				"nokaunejies": "Nedaudz",
+				"verigs": "Mēreni"
+			},
+			"target_sequence": [
+				"Saldējums",
+				"Pingvīns",
+				"Vāzes"
+			],
+			"targets": [
+				{
+					"distance_walked_to_here": 37.094,
+					"object_name": "Saldējums",
+					"room_index": 3,
+					"time_seconds": 14.494
+				},
+				{
+					"distance_walked_to_here": 42.335,
+					"object_name": "Pingvīns",
+					"room_index": 1,
+					"time_seconds": 32.952
+				},
+				{
+					"distance_walked_to_here": 43.083,
+					"object_name": "Vāzes",
+					"room_index": 8,
+					"time_seconds": 51.736
+				}
+			],
+			"wrong_room_visits": []
+		},
+		{
+			"exploration_duration_seconds": 148.917,
+			"layout_id": "layout_2",
+			"maze_id": "blue",
+			"object_room_assignment": {
+				"room_0": "Krēsls",
+				"room_1": "Dīvāns",
+				"room_2": "Virtulis",
+				"room_3": "Māja",
+				"room_4": "Pica",
+				"room_5": "Burgeris",
+				"room_6": "Kumode",
+				"room_7": "Kāpnes",
+				"room_8": "Vista"
+			},
+			"post_maze_survey": {
+				"aktivs": "Diezgan daudz",
+				"apnemigs": "Mēreni",
+				"bedigs": "Diezgan daudz",
+				"dusmigs": "Ļoti nedaudz vai nemaz",
+				"iedvesmots": "Ļoti nedaudz vai nemaz",
+				"modrs": "Ārkārtīgi",
+				"nervozs": "Mēreni",
+				"nobijies": "Ļoti nedaudz vai nemaz",
+				"nokaunejies": "Ļoti nedaudz vai nemaz",
+				"verigs": "Ļoti nedaudz vai nemaz"
+			},
+			"target_sequence": [
+				"Pica",
+				"Krēsls",
+				"Virtulis"
+			],
+			"targets": [
+				{
+					"distance_walked_to_here": 28.078,
+					"object_name": "Pica",
+					"room_index": 4,
+					"time_seconds": 10.697
+				},
+				{
+					"distance_walked_to_here": 38.778,
+					"object_name": "Krēsls",
+					"room_index": 0,
+					"time_seconds": 28.225
+				},
+				{
+					"distance_walked_to_here": 47.887,
+					"object_name": "Virtulis",
+					"room_index": 2,
+					"time_seconds": 45.438
+				}
+			],
+			"wrong_room_visits": []
+		},
+		{
+			"exploration_duration_seconds": 98.886,
+			"layout_id": "layout_3",
+			"maze_id": "neutral",
+			"object_room_assignment": {
+				"room_0": "Kaste",
+				"room_1": "Kaķis",
+				"room_2": "Lapsa",
+				"room_3": "Papagailis",
+				"room_4": "Laiva",
+				"room_5": "Kauls",
+				"room_6": "Pīle",
+				"room_7": "Lampa",
+				"room_8": "Soliņš"
+			},
+			"post_maze_survey": {
+				"aktivs": "Diezgan daudz",
+				"apnemigs": "Ļoti nedaudz vai nemaz",
+				"bedigs": "Ļoti nedaudz vai nemaz",
+				"dusmigs": "Mēreni",
+				"iedvesmots": "Ļoti nedaudz vai nemaz",
+				"modrs": "Ļoti nedaudz vai nemaz",
+				"nervozs": "Nedaudz",
+				"nobijies": "Nedaudz",
+				"nokaunejies": "Ļoti nedaudz vai nemaz",
+				"verigs": "Ļoti nedaudz vai nemaz"
+			},
+			"target_sequence": [
+				"Lampa",
+				"Laiva",
+				"Kaste"
+			],
+			"targets": [
+				{
+					"distance_walked_to_here": 46.176,
+					"object_name": "Lampa",
+					"room_index": 7,
+					"time_seconds": 19.989
+				},
+				{
+					"distance_walked_to_here": 24.625,
+					"object_name": "Laiva",
+					"room_index": 4,
+					"time_seconds": 30.325
+				},
+				{
+					"distance_walked_to_here": 30.636,
+					"object_name": "Kaste",
+					"room_index": 0,
+					"time_seconds": 42.507
+				}
+			],
+			"wrong_room_visits": []
+		}
+	]
+}

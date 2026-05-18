@@ -1,0 +1,199 @@
+{
+	"demographic_survey": {
+		"atcereties_celu": "Pilnībā piekrītu",
+		"cik_stundas": "100-1000",
+		"dzimums": "Sieviete",
+		"norades": "Pilnībā piekrītu",
+		"supes_kaite": "Jā",
+		"vai_esat_izmantojis": "Nē",
+		"virziena_sajuta": "Daļēji piekrītu"
+	},
+	"layout_order": [
+		"layout_3",
+		"layout_2",
+		"layout_1"
+	],
+	"maze_order": [
+		"red",
+		"blue",
+		"neutral"
+	],
+	"mazes": [
+		{
+			"exploration_duration_seconds": 181.927,
+			"layout_id": "layout_3",
+			"maze_id": "red",
+			"object_room_assignment": {
+				"room_0": "Puķes",
+				"room_1": "Pingvīns",
+				"room_2": "Dinozaurs",
+				"room_3": "Saldējums",
+				"room_4": "Vāvere",
+				"room_5": "Miskastes maiss",
+				"room_6": "Ugunsdzēsēju mašīna",
+				"room_7": "Karogs",
+				"room_8": "Vāzes"
+			},
+			"post_maze_survey": {
+				"aktivs": "Ļoti nedaudz vai nemaz",
+				"apnemigs": "Nedaudz",
+				"bedigs": "Ļoti nedaudz vai nemaz",
+				"dusmigs": "Nedaudz",
+				"iedvesmots": "Nedaudz",
+				"modrs": "Nedaudz",
+				"nervozs": "Mēreni",
+				"nobijies": "Mēreni",
+				"nokaunejies": "Ļoti nedaudz vai nemaz",
+				"verigs": "Mēreni"
+			},
+			"target_sequence": [
+				"Karogs",
+				"Vāvere",
+				"Puķes"
+			],
+			"targets": [
+				{
+					"distance_walked_to_here": 30.565,
+					"object_name": "Karogs",
+					"room_index": 7,
+					"time_seconds": 13.798
+				},
+				{
+					"distance_walked_to_here": 41.444,
+					"object_name": "Vāvere",
+					"room_index": 4,
+					"time_seconds": 30.841
+				},
+				{
+					"distance_walked_to_here": 45.455,
+					"object_name": "Puķes",
+					"room_index": 0,
+					"time_seconds": 49.488
+				}
+			],
+			"wrong_room_visits": [
+				{
+					"object_name": "Pingvīns",
+					"room_index": 1,
+					"target_object_name": "Puķes",
+					"time_seconds": 41.821
+				}
+			]
+		},
+		{
+			"exploration_duration_seconds": 179.329,
+			"layout_id": "layout_2",
+			"maze_id": "blue",
+			"object_room_assignment": {
+				"room_0": "Krēsls",
+				"room_1": "Dīvāns",
+				"room_2": "Virtulis",
+				"room_3": "Māja",
+				"room_4": "Pica",
+				"room_5": "Burgeris",
+				"room_6": "Kumode",
+				"room_7": "Kāpnes",
+				"room_8": "Vista"
+			},
+			"post_maze_survey": {
+				"aktivs": "Mēreni",
+				"apnemigs": "Nedaudz",
+				"bedigs": "Mēreni",
+				"dusmigs": "Mēreni",
+				"iedvesmots": "Mēreni",
+				"modrs": "Ļoti nedaudz vai nemaz",
+				"nervozs": "Ārkārtīgi",
+				"nobijies": "Ļoti nedaudz vai nemaz",
+				"nokaunejies": "Nedaudz",
+				"verigs": "Ļoti nedaudz vai nemaz"
+			},
+			"target_sequence": [
+				"Pica",
+				"Krēsls",
+				"Virtulis"
+			],
+			"targets": [
+				{
+					"distance_walked_to_here": 100.347,
+					"object_name": "Pica",
+					"room_index": 4,
+					"time_seconds": 40.673
+				},
+				{
+					"distance_walked_to_here": 60.634,
+					"object_name": "Krēsls",
+					"room_index": 0,
+					"time_seconds": 66.619
+				},
+				{
+					"distance_walked_to_here": 34.79,
+					"object_name": "Virtulis",
+					"room_index": 2,
+					"time_seconds": 88.264
+				}
+			],
+			"wrong_room_visits": []
+		},
+		{
+			"exploration_duration_seconds": 167.329,
+			"layout_id": "layout_1",
+			"maze_id": "neutral",
+			"object_room_assignment": {
+				"room_0": "Kaste",
+				"room_1": "Kaķis",
+				"room_2": "Lapsa",
+				"room_3": "Papagailis",
+				"room_4": "Laiva",
+				"room_5": "Kauls",
+				"room_6": "Pīle",
+				"room_7": "Lampa",
+				"room_8": "Soliņš"
+			},
+			"post_maze_survey": {
+				"aktivs": "Mēreni",
+				"apnemigs": "Ļoti nedaudz vai nemaz",
+				"bedigs": "Nedaudz",
+				"dusmigs": "Ļoti nedaudz vai nemaz",
+				"iedvesmots": "Ļoti nedaudz vai nemaz",
+				"modrs": "Ļoti nedaudz vai nemaz",
+				"nervozs": "Nedaudz",
+				"nobijies": "Ļoti nedaudz vai nemaz",
+				"nokaunejies": "Nedaudz",
+				"verigs": "Ļoti nedaudz vai nemaz"
+			},
+			"target_sequence": [
+				"Papagailis",
+				"Kaķis",
+				"Soliņš"
+			],
+			"targets": [
+				{
+					"distance_walked_to_here": 32.058,
+					"object_name": "Papagailis",
+					"room_index": 3,
+					"time_seconds": 14.745
+				},
+				{
+					"distance_walked_to_here": 61.097,
+					"object_name": "Kaķis",
+					"room_index": 1,
+					"time_seconds": 39.713
+				},
+				{
+					"distance_walked_to_here": 80.472,
+					"object_name": "Soliņš",
+					"room_index": 8,
+					"time_seconds": 73.66
+				}
+			],
+			"wrong_room_visits": [
+				{
+					"object_name": "Soliņš",
+					"room_index": 8,
+					"target_object_name": "Papagailis",
+					"time_seconds": 3.794
+				}
+			]
+		}
+	]
+}
